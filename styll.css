@@ -1,0 +1,99 @@
+.section table{
+
+    padding: 15px;
+    background-image: url("FB_IMG_1658475518597.jpg");
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: 100%;
+    float: left; 
+} 
+table{
+    border-collapse: collapse;
+    border-color: blueviolet;
+
+}
+h1{
+    margin-left: 300px;
+    font-size: 15pt;
+    border-radius: 10px;
+    text-align:left;
+    padding: 18px 0 18px 0;
+    color: red;
+    
+}
+h1 span{
+    
+    border: 4px dashed;
+    border-color: #20bcd5;
+    border-radius: 10px;
+    margin: 0 0 0 0;
+    padding:1%
+    
+}
+td, th{
+    padding: 20px;
+    text-align: center;
+}
+th{
+    color: blue;
+    background-color: aqua;
+}
+tr:nth-child(3){
+    background-color:blue;
+    font-weight: bold;
+    
+}
+
+tr:nth-child(even){
+    font-size: x-large;
+}
+tr:nth-child(2){
+    color:red
+}
+tr:nth-child(4){
+    color: red;
+}
+.small{
+    font-size: x-small;
+}
+#poto{
+    float:right;
+    max-width: 20%;
+    height: 300px;
+    transition: transform 1s ease-in-out;
+    animation: changeimage 10s ease-in-out 2s infinite normal;
+}
+@keyframes changeimage{
+    from{transform: rotate(360deg)}
+    
+}
+#eight{
+    font-size: xx-large;
+    color: chartreuse;
+}
+.fr, .sa{
+    color: red;
+
+}
+#fri,#sut{
+    color:chartreuse;
+    font-size: xx-large;
+}
+audio{
+    width: 200px;
+    float: left;
+    
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+video{
+    width: 300px;
+    height: 150px;
+}
+video:hover{
+    width: 500px;
+    height: 300px;
+}
